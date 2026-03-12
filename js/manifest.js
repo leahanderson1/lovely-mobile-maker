@@ -1,5 +1,5 @@
 function modifyManifest(xml, newName, newBundle) {
-	let newOrientation = "landscape"
+	let newOrientation = "6"
     const root = xml.documentElement;
 	const app = root.querySelector("application");
 	const activity = app.querySelector("activity");
